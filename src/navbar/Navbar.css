@@ -69,6 +69,7 @@
     background-color: #fff;
     cursor: pointer;
     border-top: 1px solid black;
+    color: black;
 }
 
 @media (max-width: 1400px) {
