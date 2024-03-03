@@ -1,0 +1,52 @@
+[
+    {
+      "dificultad": "Fácil",
+      "pregunta": "¿Qué significa 'JS' en JavaScript?",
+      "respuesta": "JavaScript"
+    },
+    {
+      "dificultad": "Fácil",
+      "pregunta": "¿Cómo se declara una variable en JavaScript?",
+      "respuesta": "Utilizando 'var', 'let' o 'const'"
+    },
+    {
+      "dificultad": "Moderado",
+      "pregunta": "Explique el concepto de 'cierre' (closure) en JavaScript.",
+      "respuesta": "Un cierre es una función que tiene acceso a variables de su ámbito externo, incluso después de que la función ha terminado de ejecutarse."
+    },
+    {
+      "dificultad": "Moderado",
+      "pregunta": "¿Qué es el DOM en JavaScript?",
+      "respuesta": "El DOM (Document Object Model) es una interfaz de programación para documentos HTML y XML. Representa la estructura del documento como un árbol de objetos, permitiendo a los programadores modificar la estructura, estilo y contenido del documento."
+    },
+    {
+      "dificultad": "Difícil",
+      "pregunta": "¿Cuál es la diferencia entre 'null' y 'undefined'?",
+      "respuesta": "'null' es un valor asignado que representa la ausencia intencional de cualquier objeto o valor, mientras que 'undefined' significa que la variable ha sido declarada pero aún no se le ha asignado un valor."
+    },
+    {
+      "dificultad": "Difícil",
+      "pregunta": "Explique el concepto de 'callback' en JavaScript.",
+      "respuesta": "Un callback es una función que se pasa como argumento a otra función y se ejecuta después de que algún evento haya ocurrido o después de que una tarea haya sido completada."
+    },
+    {
+      "dificultad": "Fácil",
+      "pregunta": "¿Cómo se puede verificar el tipo de una variable en JavaScript?",
+      "respuesta": "Utilizando el operador 'typeof'."
+    },
+    {
+      "dificultad": "Moderado",
+      "pregunta": "Explique el concepto de 'hoisting' en JavaScript.",
+      "respuesta": "El hoisting es un comportamiento en el cual las declaraciones de variables y funciones son movidas al comienzo de su ámbito antes de la ejecución del código."
+    },
+    {
+      "dificultad": "Fácil",
+      "pregunta": "¿Qué es JSON?",
+      "respuesta": "JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos que es fácil de leer y escribir para los humanos, y fácil de analizar y generar para las máquinas."
+    },
+    {
+      "dificultad": "Difícil",
+      "pregunta": "Explique el concepto de 'scope' en JavaScript.",
+      "respuesta": "El scope se refiere al alcance de una variable, es decir, dónde en el código puede ser referenciada o modificada la variable. JavaScript tiene ámbitos globales y locales."
+    }
+  ]

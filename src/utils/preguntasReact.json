@@ -1,0 +1,102 @@
+[
+    {
+        "dificultad": "Fácil",
+        "pregunta": "¿Qué es React?",
+        "respuesta": "React es una biblioteca de JavaScript para construir interfaces de usuario."
+    },
+    {
+        "dificultad": "Fácil",
+        "pregunta": "¿Cómo se crea un componente de clase en React?",
+        "respuesta": "Extendiendo la clase 'React.Component'."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Qué es JSX en React?",
+        "respuesta": "JSX (JavaScript XML) es una extensión de JavaScript utilizada en React para escribir elementos de interfaz de usuario."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Cómo se pasa data entre componentes en React?",
+        "respuesta": "A través de props (propiedades)."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Qué es un 'state' en React?",
+        "respuesta": "El 'state' es un objeto que representa la parte de la información de un componente que puede cambiar con el tiempo."
+    },
+    {
+        "dificultad": "Difícil",
+        "pregunta": "Explique el concepto de 'lifting state up' en React.",
+        "respuesta": "'Lifting state up' se refiere a mover el estado compartido entre componentes hacia arriba en la jerarquía de componentes para que ambos puedan acceder a él."
+    },
+    {
+        "dificultad": "Difícil",
+        "pregunta": "¿Cuándo deberías usar un componente funcional en lugar de un componente de clase en React?",
+        "respuesta": "Deberías usar un componente funcional cuando no necesitas usar características específicas de las clases de React, como el estado o los métodos del ciclo de vida."
+    },
+    {
+        "dificultad": "Fácil",
+        "pregunta": "¿Qué es un hook en React?",
+        "respuesta": "Un hook es una función especial en React que permite usar el estado y otras características de React en componentes funcionales."
+    },
+    {
+        "dificultad": "Difícil",
+        "pregunta": "Explique el propósito de 'useEffect' en React.",
+        "respuesta": "'useEffect' se utiliza para realizar operaciones secundarias en componentes funcionales, como efectos secundarios y suscripciones a datos externos."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Cómo se manejan los eventos en React?",
+        "respuesta": "Los eventos en React se manejan utilizando funciones manejadoras (handlers) como 'onClick' y 'onChange'."
+    },
+    {
+        "dificultad": "Fácil",
+        "pregunta": "¿Qué es un componente de función en React?",
+        "respuesta": "Un componente de función es una función de JavaScript que devuelve elementos React."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Cómo se manejan los estados en un componente de clase en React?",
+        "respuesta": "Los estados en un componente de clase se manejan utilizando el método 'setState'."
+    },
+    {
+        "dificultad": "Difícil",
+        "pregunta": "¿Qué es el enrutamiento en React y para qué se utiliza?",
+        "respuesta": "El enrutamiento en React se refiere a navegar entre diferentes componentes o páginas en una aplicación. Se utiliza para construir aplicaciones de una sola página (SPA) con múltiples vistas."
+    },
+    {
+        "dificultad": "Fácil",
+        "pregunta": "¿Cuál es la diferencia entre 'props' y 'state' en React?",
+        "respuesta": "'props' son datos que se pasan de un componente padre a un componente hijo, mientras que 'state' es un objeto que pertenece al componente y se utiliza para manejar datos que pueden cambiar durante la vida del componente."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "Explique el concepto de 'render prop' en React.",
+        "respuesta": "'Render prop' es un patrón en React donde un componente le pasa una función a otro componente como prop para compartir la lógica de renderizado."
+    },
+    {
+        "dificultad": "Difícil",
+        "pregunta": "¿Cuándo se debe utilizar 'componentDidMount' en un componente de clase?",
+        "respuesta": "'componentDidMount' se utiliza para realizar acciones después de que el componente ha sido montado en el DOM. Es un buen lugar para realizar solicitudes de red o suscripciones a eventos."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Qué es Redux y cuándo se recomienda su uso en aplicaciones React?",
+        "respuesta": "Redux es una biblioteca para manejar el estado global en aplicaciones React. Se recomienda su uso en aplicaciones grandes o complejas para centralizar el estado y las acciones."
+    },
+    {
+        "dificultad": "Fácil",
+        "pregunta": "¿Cómo se puede prevenir la renderización innecesaria en componentes funcionales en React?",
+        "respuesta": "Utilizando el hook 'React.memo' para memoizar el componente y evitar su renderización innecesaria."
+    },
+    {
+        "dificultad": "Difícil",
+        "pregunta": "¿En qué se diferencia 'useEffect' de 'componentDidMount' y 'componentDidUpdate'?",
+        "respuesta": "'useEffect' combina el comportamiento de 'componentDidMount' y 'componentDidUpdate' en un solo hook en componentes funcionales. Se ejecuta después de cada renderización y puede limpiar efectos secundarios cuando el componente se desmonta."
+    },
+    {
+        "dificultad": "Intermedio",
+        "pregunta": "¿Cómo se implementa el enlace de eventos en React?",
+        "respuesta": "El enlace de eventos en React se realiza utilizando métodos de manejo de eventos como 'onClick', 'onChange', etc., en JSX."
+    }
+]
