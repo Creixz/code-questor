@@ -5,6 +5,10 @@
 }
 
 body {
-    background-color: rgb(25, 129, 148);
+    background: linear-gradient(180deg, rgb(25, 129, 148) 40%, rgb(74, 176, 194) 100%);
+}
+
+.container {
+    padding: 0 2rem;
 }
 

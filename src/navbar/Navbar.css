@@ -52,14 +52,10 @@
     cursor: pointer;
 }
 
-.nav__link {
-
-}
-
 .nav__mobile-bar {
     display: flex;
     flex-direction: column;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     width: 85%;
     opacity: 0;
     transition: all 0.3s ease;
@@ -70,6 +66,12 @@
     background-color: #fff;
     cursor: pointer;
     border-top: 1px solid black;
+}
+
+@media (max-width: 1400px) {
+    .nav__content {
+        margin: 0 1.5rem;
+    }
 }
 
 @media (max-width: 570px) {
