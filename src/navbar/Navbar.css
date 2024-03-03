@@ -21,6 +21,7 @@
 .nav__logo-text {
     font-size: 1.8rem;
     font-weight: 700;
+    color: #000;
 }
 
 .nav__logo-img {
@@ -39,6 +40,7 @@
     font-size: inherit;
     cursor: pointer;
     font-weight: 700;
+    color: #000;
 }
 
 .nav__mobile {
@@ -50,6 +52,7 @@
     padding: 0.4rem;
     border-radius: 0.5rem;
     cursor: pointer;
+    color: #000;
 }
 
 .nav__mobile-bar {
